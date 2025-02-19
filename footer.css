@@ -1,0 +1,69 @@
+.footer {
+  height: 246px;
+  width: 100vw;
+  background: #373a3c;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-left: 120px;
+  padding-right: 120px;
+  justify-content: center;
+}
+.footer-logo {
+  padding-top: 40px;
+  display: flex;
+}
+.footer-logo img {
+  width: 46px;
+  height: 46px;
+}
+.footer-logo p {
+  color: white;
+  font-size: 20px;
+  padding-top: 10px;
+}
+.distr {
+  padding-top: 50px;
+  padding-left: 0;
+}
+.distr input {
+  max-width: 350px;
+}
+.distr li {
+  list-style: none;
+}
+.sub-to-distr {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+
+  color: #ffffff;
+}
+.contacts {
+  padding-top: 50px;
+}
+.contacts li {
+  list-style: none;
+}
+.contacts li p {
+  margin: 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+
+  color: #ffffff;
+}
+.contacts li a {
+  margin: 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+
+  color: #ffffff;
+  text-decoration: none;
+}

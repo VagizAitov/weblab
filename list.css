@@ -1,0 +1,11 @@
+.main {
+  padding-top: 150px;
+  padding-left: 120px;
+  min-height: 100vh;
+}
+.items-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+  padding-bottom: 5px;
+}

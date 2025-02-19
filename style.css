@@ -1,0 +1,60 @@
+.main {
+  padding-top: 144px;
+  padding-left: 120px;
+  display: grid;
+  padding-bottom: 211px;
+  grid-template-columns: 1fr 1fr;
+  min-height: 100vh;
+}
+.right {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+.left-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.left-title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+
+  color: #000000;
+}
+.params {
+  list-style: none;
+  padding: 0;
+}
+.params .item {
+  display: flex;
+}
+.item-main {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 20px;
+
+  color: #000000;
+  margin-right: 10px;
+}
+.item-secondary {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: #545454;
+}
+.item {
+  padding-top: 7px;
+}

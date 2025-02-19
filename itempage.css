@@ -1,0 +1,43 @@
+.main {
+  padding-top: 150px;
+  padding-left: 120px;
+  min-height: 100vh;
+}
+.first {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 44px;
+
+  color: #545454;
+}
+.second {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+
+  color: #000000;
+}
+.author {
+  display: flex;
+  gap: 20px;
+}
+.name {
+  display: flex;
+  gap: 20px;
+}
+.desc {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: #545454;
+  max-width: 743px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
